@@ -1,0 +1,10 @@
+This is a grails plugins that allows you to write notes within your codes and tests. 
+These can then be retrieved from the command line as follows:
+
+grails code_notes
+
+A note is written as follows:
+//TODO: My note.
+
+The note ends at the line break. No more colons are allowed in that line, if any are inserted, any content after those colons will be ignored.
+These notes are inteded to be short and simple.
