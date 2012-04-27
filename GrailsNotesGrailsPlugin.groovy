@@ -12,14 +12,14 @@ class GrailsNotesGrailsPlugin {
 
     // TODO Fill in these fields
     def title = "Grails Notes Plugin" // Headline display name of the plugin
-    def author = "Your name"
-    def authorEmail = ""
+    def author = "Roberto Guerra"
+    def authorEmail = "uris77@gmail.com"
     def description = '''\
-Brief summary/description of the plugin.
+    Grails Notes is a small plugin that allows you to write notes inside your code and view them afterwards.
 '''
 
     // URL to the plugin's documentation
-    def documentation = "http://grails.org/plugin/grails-notes"
+    def documentation = "http://github.com/uris77/grails-notes/blob/master/README"
 
     // Extra (optional) plugin metadata
 
@@ -29,14 +29,12 @@ Brief summary/description of the plugin.
     // Details of company behind the plugin (if there is one)
 //    def organization = [ name: "My Company", url: "http://www.my-company.com/" ]
 
-    // Any additional developers beyond the author specified above.
-//    def developers = [ [ name: "Joe Bloggs", email: "joe@bloggs.net" ]]
 
     // Location of the plugin's issue tracker.
-//    def issueManagement = [ system: "JIRA", url: "http://jira.grails.org/browse/GPMYPLUGIN" ]
+    def issueManagement = [ system: "Github", url: "http://github.com/uris77/grails-notes/issues" ]
 
     // Online location of the plugin's browseable source code.
-//    def scm = [ url: "http://svn.grails-plugins.codehaus.org/browse/grails-plugins/" ]
+    def scm = [ url: "http://github.com/uris77/grails-notes" ]
 
     def doWithWebDescriptor = { xml ->
         // TODO Implement additions to web.xml (optional), this event occurs before
