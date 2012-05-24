@@ -1,0 +1,48 @@
+<plugin name='grails-notes' version='0.1' grailsVersion='2.0.3 &gt; *'>
+  <author>Roberto Guerra</author>
+  <authorEmail>uris77@gmail.com</authorEmail>
+  <title>Grails Notes Plugin</title>
+  <description>    Grails Notes is a small plugin that allows you to write notes inside your code and view them afterwards.
+</description>
+  <documentation>http://github.com/uris77/grails-notes/blob/master/README</documentation>
+  <type>GrailsNotesGrailsPlugin</type>
+  <resources />
+  <repositories>
+    <repository name='grailsCentral' url='http://plugins.grails.org' />
+    <repository name='http://repo.grails.org/grails/plugins' url='http://repo.grails.org/grails/plugins/' />
+    <repository name='http://repo.grails.org/grails/core' url='http://repo.grails.org/grails/core/' />
+    <repository name='grailsCore' url='http://svn.codehaus.org/grails/trunk/grails-plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+    <repository name='http://repo.grails.org/grails/plugins/' url='http://repo.grails.org/grails/plugins/' />
+    <repository name='http://zkgrails.googlecode.com/svn/repo/' url='http://zkgrails.googlecode.com/svn/repo/' />
+    <repository name='http://mavensync.zkoss.org/maven2/' url='http://mavensync.zkoss.org/maven2/' />
+    <repository name='http://grails.org/plugins' url='http://grails.org/plugins' />
+    <repository name='http://download.java.net/maven/2/' url='http://download.java.net/maven/2/' />
+  </repositories>
+  <dependencies>
+    <runtime>
+      <dependency group='postgresql' name='postgresql' version='9.1-901.jdbc4' />
+    </runtime>
+  </dependencies>
+  <plugins>
+    <test>
+      <plugin group='org.grails.plugins' name='build-test-data' version='2.0.2' />
+      <plugin group='org.grails.plugins' name='cucumber' version='0.4.0' />
+    </test>
+    <compile>
+      <plugin group='org.grails.plugins' name='spring-security-core' version='1.2.7.3' />
+      <plugin group='org.grails.plugins' name='fixtures' version='1.1' />
+    </compile>
+    <runtime>
+      <plugin group='org.grails.plugins' name='hibernate' version='2.0.3' />
+      <plugin group='org.grails.plugins' name='jquery' version='1.7.1' />
+      <plugin group='org.grails.plugins' name='svn' version='1.0.0.M1' />
+      <plugin group='org.grails.plugins' name='resources' version='1.1.6' />
+    </runtime>
+    <build>
+      <plugin group='org.grails.plugins' name='tomcat' version='2.0.3' />
+    </build>
+  </plugins>
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>
